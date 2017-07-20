@@ -3,7 +3,7 @@
 ##Overview
 Chat bot dialog for working with the [Watson Conversation](https://www.ibm.com/watson/developercloud/conversation.html) service on Bluemix, adapted from Basic starter bot to the need of CPhack Trevisan challenge.
 
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/slkaczma/watson-bot-starter)
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/dnzengou/legalbot-ai)
 
 <!--Follow this [tutorial](https://www.ibm.com/watson/developercloud/doc/conversation/tutorial_basic.shtml) for learning about Intents, Entities, and Dialog.
 
