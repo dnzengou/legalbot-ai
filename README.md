@@ -5,7 +5,7 @@ Chat bot dialog for working with the [Watson Conversation](https://www.ibm.com/w
 
 [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/slkaczma/watson-bot-starter)
 
-Follow this [tutorial](https://www.ibm.com/watson/developercloud/doc/conversation/tutorial_basic.shtml) for learning about Intents, Entities, and Dialog.
+<!--Follow this [tutorial](https://www.ibm.com/watson/developercloud/doc/conversation/tutorial_basic.shtml) for learning about Intents, Entities, and Dialog.
 
 Scroll to the bottom of this README for more information on working with Watson Conversation. **You can import the example dialog from [lebot.json](lebot.json)**
 
@@ -116,4 +116,4 @@ Scroll to the bottom of this README for more information on working with Watson 
     ![create dialog](img/building.jpg)
 
  6. Always make sure to have a conversation_start condition as the first box in your dialog.
-    ![conversation start](img/convostart.jpg)
+    ![conversation start](img/convostart.jpg) -->
