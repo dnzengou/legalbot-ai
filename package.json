@@ -6,10 +6,11 @@
     "start": "node app.js"
   },
   "dependencies": {
+    "body-parser": "*",
     "cfenv": "1.0.x",
     "express": "4.13.x",
-    "watson-developer-cloud":"*",
-    "body-parser":"*"
+    "pubnub": "^4.13.0",
+    "watson-developer-cloud": "*"
   },
   "repository": {},
   "engines": {
