@@ -79,17 +79,4 @@ app.post('/api/bot', function(req, res) {
         return res.json(data);
     });
 
-});
-pubnub = new PubNub({
-    publishKey: "pub-c-86f59ed9-0ffe-49ec-9b3f-72c7b09e783d",
-    subscribeKey: "sub-c-21814390-8016-11e7-9034-1e9edc6dd7f6"
-});
-
-var publishConfig = {
-    channel: "pubnub_onboarding_channel",
-    message: "Hellloo From JavaScript SDK"
-}
-
-pubnub.publish(publishConfig, function(status, response) {
-    console.log(status, response);
 }); // End app.post '/api/bot'
