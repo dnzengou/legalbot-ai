@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "body-parser": "*",
+    "botkit-middleware-watson": "^1.4.0",
     "cfenv": "1.0.x",
     "express": "4.13.x",
     "pubnub": "^4.13.0",

@@ -44,7 +44,7 @@ app.post('/api/bot', function(req, res) {
     console.log("Got request for Le Bot");
     console.log("Request is: ", req);
 
-    var workspace = '800d684b-b222-4713-8886-7cd913f71ded'; // Set to your Conversation workspace ID
+    var workspace = 'xxx'; // Set to your Conversation workspace ID
 
     if (!workspace) {
         console.log("No workspace detected. Cannot run the Watson Conversation service.");
