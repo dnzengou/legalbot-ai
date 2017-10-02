@@ -73,7 +73,7 @@ function userMessage(message) {
     // Add variables to the context as more options are chosen
     if (context) {
         params.context = context; // Add a context if there is one previously stored
-        params.context.username = "Stefania";
+        params.context.username = "Mate";
     }
 
     var xhr = new XMLHttpRequest();

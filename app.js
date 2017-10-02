@@ -12,12 +12,12 @@ var express = require('express'),
     bodyParser = require('body-parser'),
     watson = require('watson-developer-cloud');
 
-/*************************************************************************************************
-
-  Start the server
-
+/************************************************************************************************* 
+  
+  Start the server 
+  
 *************************************************************************************************/
-app.use(bodyParser());
+app.use(bodyParser()); 
 
 app.use(express.static(__dirname + '/public'));
 var appEnv = cfenv.getAppEnv();
@@ -31,20 +31,20 @@ app.listen(appEnv.port, '0.0.0.0', function() {
 
 *************************************************************************************************/
 var conversation = watson.conversation({
-    url: 'https://gateway.watsonplatform.net/conversation/api',
-    username: 'xxx', // Set to your conversation username
-    password: 'xxx', // Set to your conversation password
+    url: 'https://gateway.watsonplatform.net/conversation/api',   
+    username: 'CONVERSATION_USERNAME',   // Set to your conversation username
+    password: 'CONVERSATION_PASSWORD',   // Set to your conversation password
     version_date: '2016-07-11',
     version: 'v1'
 });
 
 // Allow clients to interact with the bot
 app.post('/api/bot', function(req, res) {
-
+    
     console.log("Got request for Le Bot");
-    console.log("Request is: ", req);
+    console.log("Request is: ",req);
 
-    var workspace = 'xxx'; // Set to your Conversation workspace ID
+    var workspace = 'WORKSPACE_ID'; // Set to your Conversation workspace ID
 
     if (!workspace) {
         console.log("No workspace detected. Cannot run the Watson Conversation service.");
@@ -53,7 +53,7 @@ app.post('/api/bot', function(req, res) {
     var params = {
         workspace_id: workspace,
         context: {}, // Null context indicates new conversation
-        input: {} // Holder for message
+        input: {}    // Holder for message
     };
 
     // Update options to send to conversation service with the user input and a context if one exists
@@ -80,3 +80,4 @@ app.post('/api/bot', function(req, res) {
     });
 
 }); // End app.post '/api/bot'
+

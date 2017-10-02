@@ -1,19 +1,32 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
-<title>Conversation with LegalBot AI</title>
-<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<link rel="stylesheet" href="css/bot.css">
+    <title>Conversation with LegalBot AI</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/bot.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="css/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="css/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="css/img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="css/img/favicons/manifest.json">
+    <link rel="mask-icon" href="css/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
 </head>
+
 <body onload="userMessage('');">
-<div class="container">
-    <div class="chatbot">
-        <div id="chatBox" class="dialogContainer"></div>
-        <textarea rows="4" id="chatMessage" class="dialogInput" placeholder="Get talking" onkeypress="return newEvent(event)"></textarea>
-    </div><!-- End class chatbot -->
-</div><!-- End class container -->
+    <div class="container">
+        <div class="chatbot">
+            <div id="chatBox" class="dialogContainer"></div>
+            <textarea rows="4" id="chatMessage" class="dialogInput" placeholder="Get talking" onkeypress="return newEvent(event)"></textarea>
+        </div>
+        <!-- End class chatbot -->
+    </div>
+    <!-- End class container -->
 </body>
 <script src="src/bot.js"></script>
+
 </html>

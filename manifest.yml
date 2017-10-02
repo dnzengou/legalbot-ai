@@ -1,4 +1,3 @@
----
 applications:
 - services:
   - conversation-bot
@@ -7,9 +6,10 @@ applications:
   name: legalbot-ai
   command: node app.js
   path: .
+  domain: mybluemix.net
   memory: 512M
   instances: 1
 declared-services:
   conversation-bot:
     label: conversation
-    plan: free
+    plan:  free
