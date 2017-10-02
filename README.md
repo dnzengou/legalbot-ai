@@ -1,4 +1,4 @@
-# watson-bot-starter
+# legalbot-ai for LegalTech
 
 ##Overview
 Chat bot dialog for working with the [Watson Conversation](https://www.ibm.com/watson/developercloud/conversation.html) service on Bluemix, adapted from Basic starter bot to the need of CPhack Trevisan challenge.

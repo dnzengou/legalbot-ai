@@ -1,57 +1,57 @@
-Can I do in Erdoble?,Action_in_Erdoble
-What to do in Edorble?,Action_in_Erdoble
-What to do here?,Action_in_Erdoble
-What to do?,Action_in_Erdoble
-What can I do in Edorble?,Action_in_Erdoble
-What can I do here?,Action_in_Erdoble
-What can I do?,Action_in_Erdoble
-Tell me,Action_in_Erdoble
-Please tell me,Action_in_Erdoble
-I don't know,Action_in_Erdoble
-Help?,Action_in_Erdoble
-Help,Action_in_Erdoble
-Edorble?,Action_in_Erdoble
-people to the auditorium,auditorium
-Teleport everyone to the auditorium,auditorium
-veryone in the auditorium,auditorium
-Bring everyone to the auditorium,auditorium
-Bring people to the auditorium,auditorium
-Everyone to the auditorium,auditorium
-People in the auditorium,auditorium
+Can I do in Gal?,Action_in_Gal
+What to do in Gal?,Action_in_Gal
+What to do here?,Action_in_Gal
+What to do?,Action_in_Gal
+What can I do in Gal?,Action_in_Gal
+What can I do here?,Action_in_Gal
+What can I do?,Action_in_Gal
+Tell me,Action_in_Gal
+Please tell me,Action_in_Gal
+I don't know,Action_in_Gal
+Help?,Action_in_Gal
+Help,Action_in_Gal
+Gal?,Action_in_Gal
+people to the court,court
+Teleport everyone to the court,court
+veryone in the court,court
+Bring everyone to the court,court
+Bring people to the court,court
+Everyone to the court,court
+People in the court,court
 Ahead,continue
 On,continue
 Move on,continue
 Go on,continue
 Continue,continue
-Quota,Cost_Erdoble
-Cost,Cost_Erdoble
-Edorble expensive,Cost_Erdoble
-Erdoble cost,Cost_Erdoble
-How many people can I have in Edorble?,Cost_Erdoble
-How many people can I have in Edorble at once?,Cost_Erdoble
-How much,Cost_Erdoble
-How much does Edorble cost?,Cost_Erdoble
-Is Edorble expensive?,Cost_Erdoble
-Is Edorble free?,Cost_Erdoble
-Price,Cost_Erdoble
-CEO?,Creators_of_Erboble
-Creator?,Creators_of_Erboble
-Creator of Edorble,Creators_of_Erboble
-Creator of Edorble?,Creators_of_Erboble
-Creator of Orble?,Creators_of_Erboble
-Creators?,Creators_of_Erboble
-CTO?,Creators_of_Erboble
-Designers?,Creators_of_Erboble
-Who started this?,Creators_of_Erboble
-Who started Edorble?,Creators_of_Erboble
-Who made this?,Creators_of_Erboble
-Who made Edorble?,Creators_of_Erboble
-Who designed Edorble?,Creators_of_Erboble
-Who created Edorble?,Creators_of_Erboble
-Developer?,Creators_of_Erboble
-Erdoble?,Creators_of_Erboble
-Orble,Creators_of_Erboble
-Where was Edorble Made?,Creators_of_Erboble
+Quota,Cost_Gal
+Cost,Cost_Gal
+Gal expensive,Cost_Gal
+Gal cost,Cost_Gal
+How many people can I have in Gal?,Cost_Gal
+How many people can I have in Gal at once?,Cost_Gal
+How much,Cost_Gal
+How much does Gal cost?,Cost_Gal
+Is Gal expensive?,Cost_Gal
+Is Gal free?,Cost_Gal
+Price,Cost_Gal
+CEO?,Creators_of_LegalBotAI
+Creator?,Creators_of_LegalBotAI
+Creator of Gal,Creators_of_LegalBotAI
+Creator of Gal?,Creators_of_LegalBotAI
+Creator of Orble?,Creators_of_LegalBotAI
+Creators?,Creators_of_LegalBotAI
+CTO?,Creators_of_LegalBotAI
+Designers?,Creators_of_LegalBotAI
+Who started this?,Creators_of_LegalBotAI
+Who started Gal?,Creators_of_LegalBotAI
+Who made this?,Creators_of_LegalBotAI
+Who made Gal?,Creators_of_LegalBotAI
+Who designed Gal?,Creators_of_LegalBotAI
+Who created Gal?,Creators_of_LegalBotAI
+Developer?,Creators_of_LegalBotAI
+Gal?,Creators_of_LegalBotAI
+Orble,Creators_of_LegalBotAI
+Where was Gal Made?,Creators_of_LegalBotAI
 How can I create,design
 How to design,design
 How to customize,design
@@ -69,14 +69,14 @@ No need,do_not_get_in_touch
 I want to leave,do_not_get_in_touch
 Don't want to get in touch,do_not_get_in_touch
 Don't to get in touch,do_not_get_in_touch
-Can Edorble run,Erdoble_run_on
-Does Edorble work on,Erdoble_run_on
-Can Edorble run on,Erdoble_run_on
-Can Edorble work,Erdoble_run_on
-Can Edorble work on,Erdoble_run_on
-Does Edorble run,Erdoble_run_on
-Does Edorble run on,Erdoble_run_on
-Does Edorble work,Erdoble_run_on
+Can Gal run,Gal_run_on
+Does Gal work on,Gal_run_on
+Can Gal run on,Gal_run_on
+Can Gal work,Gal_run_on
+Can Gal work on,Gal_run_on
+Does Gal run,Gal_run_on
+Does Gal run on,Gal_run_on
+Does Gal work,Gal_run_on
 Time to work out,exercise
 I need to lose weight,exercise
 I feel fat,exercise
@@ -116,7 +116,7 @@ Ciao,goodbye
 farewell,goodbye
 Goodbye,goodbye
 I'm done,goodbye
-Hey erdoble,greeting
+Hey Gal,greeting
 Hey there,greeting
 Hey you,greeting
 Hi,greeting
@@ -184,26 +184,26 @@ Sound problems,problem_sound
 Voice doesn't work,problem_sound
 Can’t hear,problem_sound
 delay,problem_sound
-Show anything?,Screen_in_Erdoble
-Show,Screen_in_Erdoble
-Screen works,Screen_in_Erdoble
-Put content on screens,Screen_in_Erdoble
-How to show something on screens?,Screen_in_Erdoble
-How to do something?,Screen_in_Erdoble
-How to?,Screen_in_Erdoble
-How screen works,Screen_in_Erdoble
-How screens work,Screen_in_Erdoble
-How do the screens work?,Screen_in_Erdoble
-How do I use the screens?,Screen_in_Erdoble
-Do something,Screen_in_Erdoble
-How do I put content on the screens?,Screen_in_Erdoble
-How can I show a website?,Screen_in_Erdoble
-How can I show a video?,Screen_in_Erdoble
-Content on screen?,Screen_in_Erdoble
-How can I show?,Screen_in_Erdoble
-Do something?,Screen_in_Erdoble
-Something on screens?,Screen_in_Erdoble
-Show me,Screen_in_Erdoble
+Show anything?,Screen_in_Gal
+Show,Screen_in_Gal
+Screen works,Screen_in_Gal
+Put content on screens,Screen_in_Gal
+How to show something on screens?,Screen_in_Gal
+How to do something?,Screen_in_Gal
+How to?,Screen_in_Gal
+How screen works,Screen_in_Gal
+How screens work,Screen_in_Gal
+How do the screens work?,Screen_in_Gal
+How do I use the screens?,Screen_in_Gal
+Do something,Screen_in_Gal
+How do I put content on the screens?,Screen_in_Gal
+How can I show a website?,Screen_in_Gal
+How can I show a video?,Screen_in_Gal
+Content on screen?,Screen_in_Gal
+How can I show?,Screen_in_Gal
+Do something?,Screen_in_Gal
+Something on screens?,Screen_in_Gal
+Show me,Screen_in_Gal
 off,stop
 exist,stop
 fini,stop
@@ -215,16 +215,16 @@ leave,stop
 out,stop
 quit,stop
 stop,stop
-How many users can be in Edorble at once?,Users_in_Erdoble
-How many users can be in Edorble together?,Users_in_Erdoble
-How many users in Edorble ?,Users_in_Erdoble
-How many users can be in Edorble at one time?,Users_in_Erdoble
-How many people can be in Edorble at once?,Users_in_Erdoble
-How many people can be in Edorble?,Users_in_Erdoble
-How many people can be in Edorble at one time?,Users_in_Erdoble
-How many people can be in Edorble together?,Users_in_Erdoble
-How many people in Edorble?,Users_in_Erdoble
-How many users can be in Edorble?,Users_in_Erdoble
+How many users can be in Gal at once?,Users_in_Gal
+How many users can be in Gal together?,Users_in_Gal
+How many users in Gal ?,Users_in_Gal
+How many users can be in Gal at one time?,Users_in_Gal
+How many people can be in Gal at once?,Users_in_Gal
+How many people can be in Gal?,Users_in_Gal
+How many people can be in Gal at one time?,Users_in_Gal
+How many people can be in Gal together?,Users_in_Gal
+How many people in Gal?,Users_in_Gal
+How many users can be in Gal?,Users_in_Gal
 ok yes,yes
 ok maybe,yes
 deal,yes

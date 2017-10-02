@@ -2,14 +2,12 @@
 
 .container {
     display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-
-	-ms-flex-align: center;
-	-webkit-align-items: center;
-	-webkit-box-align: center;
-
-	align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
     justify-content: center;
 }
 
@@ -23,23 +21,23 @@
     margin: 0;
     border-radius: 4px;
     padding: 10px;
-    background-image: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("img/legalAI.png");
-    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("img/legalAI.png");
-    background-image: -ms-linear-gradient(bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("img/legalAI.png");
-    background-image: linear-gradient(bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("img/legalAI.png");
+    background-image: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("./img/legalAI.png");
+    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("./img/legalAI.png");
+    background-image: -ms-linear-gradient(bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("./img/legalAI.png");
+    background-image: linear-gradient(bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("./img/legalAI.png");
     background-attachment: inherit;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 150px;
     overflow-y: auto;
     overflow-x: hidden;
-    border: 1px solid rgba(86,167,161,1.0);
+    border: 1px solid rgba(86, 167, 161, 1.0);
 }
 
 .dialogInput {
     width: 300px;
     margin-top: 15px;
-    border: 1px solid rgba(86,167,161,1.0);
+    border: 1px solid rgba(86, 167, 161, 1.0);
     height: 60px;
     font-weight: bold;
     border-radius: 4px;
@@ -58,16 +56,16 @@
 .bot {
     padding: 0.5em;
     border-radius: 5px;
-    background-color: rgba(90,171,164,1.0);
+    background-color: rgba(90, 171, 164, 1.0);
     margin-left: 0.5em;
     margin-right: 30%;
     -webkit-align-self: flex-start;
     align-self: flex-start;
-	-webkit-animation: fadein 2s;
-       -moz-animation: fadein 2s;
-        -ms-animation: fadein 2s;
-         -o-animation: fadein 2s;
-            animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -ms-animation: fadein 2s;
+    -o-animation: fadein 2s;
+    animation: fadein 2s;
 }
 
 .user {
@@ -78,32 +76,54 @@
     margin-left: 30%;
     -webkit-align-self: flex-end;
     align-self: flex-end;
-	-webkit-animation: fadein 1s;
-       -moz-animation: fadein 1s;
-        -ms-animation: fadein 1s;
-         -o-animation: fadein 1s;
-            animation: fadein 1s;
+    -webkit-animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -ms-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation: fadein 1s;
 }
 
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
+
 
 /* Firefox < 16 */
+
 @-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
+
 
 /* Safari, Chrome and Opera > 12.1 */
+
 @-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
+
 /* Internet Explorer */
+
 @-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
